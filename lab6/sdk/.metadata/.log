@@ -1,0 +1,157 @@
+!SESSION 2025-10-14 11:06:46.073 -----------------------------------------------
+eclipse.buildId=2022.2
+java.version=11.0.11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2025-10-14 11:08:08.806
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-14 11:08:17.871
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-20
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-14 11:08:17.872
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-14 11:08:17.884
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-14 11:08:17.886
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-20
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-14 11:08:17.887
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-14 11:08:17.900
+!MESSAGE XSCT Command: [setws C:/Users/Mwehler2/385/ece385-lab6/lab6/sdk], Thread: Thread-20
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-14 11:08:21.143
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-14 11:08:21.143
+!MESSAGE XSCT command with result: [setws C:/Users/Mwehler2/385/ece385-lab6/lab6/sdk], Result: [null, ]. Thread: Thread-20
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-14 11:08:21.143
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-14 11:08:21.143
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, C:/Xilinx/Vitis/2022.2/data]. Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-10-14 11:09:07.597
+!MESSAGE Opening file dialog using preferences. Current path: C:\Xilinx\Vitis\2022.2\data\embeddedsw\lib\fixed_hwplatforms, Local preference: scw_hwspec, Group preference: null
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-14 11:09:46.711
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Mwehler2/AppData/Local/Temp/hwspec_mb_intro_top8733335521746134621/mb_intro_top.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-14 11:09:46.934
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Mwehler2/AppData/Local/Temp/hwspec_mb_intro_top8733335521746134621/mb_intro_top.xsa], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-14 11:09:46.971
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Users/Mwehler2/AppData/Local/Temp/hwspec_mb_intro_top8733335521746134621/mb_intro_top.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-14 11:09:46.975
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Users/Mwehler2/AppData/Local/Temp/hwspec_mb_intro_top8733335521746134621/mb_intro_top.xsa], Result: [null, {"device": "7s50",
+"family": "spartan7",
+"timestamp": "Tue Oct 14 10:49:38 2025",
+"vivado_version": "2022.2",
+"part": "xc7s50csga324-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-14 11:09:46.975
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/Mwehler2/AppData/Local/Temp/hwspec_mb_intro_top8733335521746134621/mb_intro_top.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-14 11:09:46.982
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/Mwehler2/AppData/Local/Temp/hwspec_mb_intro_top8733335521746134621/mb_intro_top.xsa], Result: [null, {"axi_gpio_0": {"hier_name": "axi_gpio_0",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_intc": {"hier_name": "microblaze_0_axi_intc",
+"type": "axi_intc",
+"version": "4.1",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-14 11:11:29.947
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json C:/Users/Mwehler2/AppData/Local/Temp/hwspec_mb_intro_top8733335521746134621/mb_intro_top.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-14 11:11:29.962
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json C:/Users/Mwehler2/AppData/Local/Temp/hwspec_mb_intro_top8733335521746134621/mb_intro_top.xsa], Result: [null, {"microblaze_0": {"freertos10_xilinx_v1_12": {"name": "freertos10_xilinx",
+"version": "1.12",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.4.6",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_12",
+},
+"standalone_v8_0": {"name": "standalone",
+"version": "8.0",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/bsp/standalone_v8_0",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-14 11:11:29.964
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Mwehler2/AppData/Local/Temp/hwspec_mb_intro_top8733335521746134621/mb_intro_top.xsa microblaze_0 C_DATA_SIZE], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-14 11:11:29.964
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Mwehler2/AppData/Local/Temp/hwspec_mb_intro_top8733335521746134621/mb_intro_top.xsa microblaze_0 C_DATA_SIZE], Result: [null, 32]. Thread: main
