@@ -393,3 +393,39 @@ con
 ----------------End of Script----------------
 
 11:58:16 INFO  : Launch script is exported to file 'C:\Users\Mwehler2\385\ece385-lab6\lab6\sdk\blinker_system\_ide\scripts\debugger_blinker-default.tcl'
+12:19:44 INFO  : Disconnected from the channel tcfchan#2.
+12:19:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:19:45 INFO  : Jtag cable 'RealDigital Boo 887100000001A' is selected.
+12:19:45 INFO  : 'jtag frequency' command is executed.
+12:19:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000001A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+12:19:46 INFO  : Device configured successfully with "C:/Users/Mwehler2/385/ece385-lab6/lab6/sdk/blinker/_ide/bitstream/mb_intro_top.bit"
+12:19:46 INFO  : Context for processor 'microblaze_0' is selected.
+12:19:46 INFO  : Hardware design and registers information is loaded from 'C:/Users/Mwehler2/385/ece385-lab6/lab6/mb_intro_top.xsa'.
+12:19:46 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:19:46 INFO  : Context for processor 'microblaze_0' is selected.
+12:19:46 INFO  : System reset is completed.
+12:19:49 INFO  : 'after 3000' command is executed.
+12:19:49 INFO  : Context for processor 'microblaze_0' is selected.
+12:19:49 INFO  : The application 'C:/Users/Mwehler2/385/ece385-lab6/lab6/sdk/blinker/Debug/blinker.elf' is downloaded to processor 'microblaze_0'.
+12:19:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000001A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/Mwehler2/385/ece385-lab6/lab6/sdk/blinker/_ide/bitstream/mb_intro_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "RealDigital Boo 887100000001A" && jtag_device_ctx=="jsn1-0362f093-0"}
+loadhw -hw C:/Users/Mwehler2/385/ece385-lab6/lab6/mb_intro_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "RealDigital Boo 887100000001A" && jtag_device_ctx=="jsn1-0362f093-0"}
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "RealDigital Boo 887100000001A" && jtag_device_ctx=="jsn1-0362f093-0"}
+dow C:/Users/Mwehler2/385/ece385-lab6/lab6/sdk/blinker/Debug/blinker.elf
+----------------End of Script----------------
+
+12:19:49 INFO  : Context for processor 'microblaze_0' is selected.
+12:19:49 INFO  : 'con' command is executed.
+12:19:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "RealDigital Boo 887100000001A" && jtag_device_ctx=="jsn1-0362f093-0"}
+con
+----------------End of Script----------------
+
+12:19:49 INFO  : Launch script is exported to file 'C:\Users\Mwehler2\385\ece385-lab6\lab6\sdk\blinker_system\_ide\scripts\debugger_blinker-default.tcl'

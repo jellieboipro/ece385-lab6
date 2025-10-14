@@ -24,14 +24,10 @@ int main()
 {
     init_platform();
 
-	while (1+1 != 3)
+	while (1)
 	{
-		sleep(1);
-		*led_gpio_data |=  0x00000001;
-		xil_printf("Led On!\r\n");
-		sleep(1);
-		*led_gpio_data &= ~0x00000001; //blinks LED
-		xil_printf("Led Off!\r\n");
+		int accumulator = 0;
+		accumulator += *
 	}
 
     cleanup_platform();
