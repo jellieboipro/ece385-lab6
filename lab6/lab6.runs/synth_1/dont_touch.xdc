@@ -48,4 +48,10 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mb_block_ax
 # IP: bd/mb_block/ip/mb_block_axi_uartlite_0_0/mb_block_axi_uartlite_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mb_block_axi_uartlite_0_0 || ORIG_REF_NAME==mb_block_axi_uartlite_0_0} -quiet] -quiet
 
+# IP: bd/mb_block/ip/mb_block_axi_gpio_1_0/mb_block_axi_gpio_1_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mb_block_axi_gpio_1_0 || ORIG_REF_NAME==mb_block_axi_gpio_1_0} -quiet] -quiet
+
+# IP: bd/mb_block/ip/mb_block_axi_gpio_2_0/mb_block_axi_gpio_2_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mb_block_axi_gpio_2_0 || ORIG_REF_NAME==mb_block_axi_gpio_2_0} -quiet] -quiet
+
 # XDC: c:/Users/Mwehler2/385/ece385-lab6/lab6/lab6.gen/sources_1/bd/mb_block/mb_block_ooc.xdc

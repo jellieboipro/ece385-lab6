@@ -15,23 +15,23 @@
 
 #include "platform.h"
 
-volatile uint32_t* led_gpio_data = (uint32_t*)0x40000000;  //Hint: either find the manual address (via the memory map in the block diagram, or
+volatile uint32_t* led_gpio_data_blink = (uint32_t*)0x40000000;  //Hint: either find the manual address (via the memory map in the block diagram, or
 															 //replace with the proper define in xparameters (part of the BSP). Either way
 															 //this is the base address of the GPIO corresponding to your LEDs
 															 //(similar to 0xFFFF from MEM2IO from previous labs).
 
-int main()
+int blink()
 {
     init_platform();
 
 	while (1+1 != 3)
 	{
 		sleep(1);
-		*led_gpio_data |=  0x00000001;
-		xil_printf("Led On!\r\n");
+		*led_gpio_data_blink |=  0x00000001;
+		printf("Led On!\r\n");
 		sleep(1);
-		*led_gpio_data &= ~0x00000001; //blinks LED
-		xil_printf("Led Off!\r\n");
+		*led_gpio_data_blink &= ~0x00000001; //blinks LED
+		printf("Led Off!\r\n");
 	}
 
     cleanup_platform();

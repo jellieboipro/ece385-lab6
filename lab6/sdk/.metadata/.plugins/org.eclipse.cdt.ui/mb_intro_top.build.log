@@ -1,6 +1,7 @@
-11:51:20 **** Build of project mb_intro_top ****
-buildplatform.bat 53483 mb_intro_top  
-XSDB Server Channel: tcfchan#10
+13:54:33 **** Build of project mb_intro_top ****
+buildplatform.bat 60464 mb_intro_top  
+XSDB Server Channel: tcfchan#7
+C:/Xilinx/Vitis/2022.2/gnu/microblaze/nt
 Building the BSP Library for domain  - standalone_microblaze_0 on processor microblaze_0
 make --no-print-directory seq_libs
 
@@ -116,5 +117,5 @@ mb-ar: creating microblaze_0/lib/libxil.a
 'Finished building libraries'
 
 
-11:51:27 Build Finished (took 7s.162ms)
+13:54:42 Build Finished (took 9s.960ms)
 

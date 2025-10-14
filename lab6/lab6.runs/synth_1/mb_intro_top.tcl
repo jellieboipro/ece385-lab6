@@ -119,6 +119,12 @@ set_property used_in_implementation false [get_files -all c:/Users/Mwehler2/385/
 set_property used_in_implementation false [get_files -all c:/Users/Mwehler2/385/ece385-lab6/lab6/lab6.gen/sources_1/bd/mb_block/ip/mb_block_axi_uartlite_0_0/mb_block_axi_uartlite_0_0_board.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Mwehler2/385/ece385-lab6/lab6/lab6.gen/sources_1/bd/mb_block/ip/mb_block_axi_uartlite_0_0/mb_block_axi_uartlite_0_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Mwehler2/385/ece385-lab6/lab6/lab6.gen/sources_1/bd/mb_block/ip/mb_block_axi_uartlite_0_0/mb_block_axi_uartlite_0_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Mwehler2/385/ece385-lab6/lab6/lab6.gen/sources_1/bd/mb_block/ip/mb_block_axi_gpio_1_0/mb_block_axi_gpio_1_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Mwehler2/385/ece385-lab6/lab6/lab6.gen/sources_1/bd/mb_block/ip/mb_block_axi_gpio_1_0/mb_block_axi_gpio_1_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Mwehler2/385/ece385-lab6/lab6/lab6.gen/sources_1/bd/mb_block/ip/mb_block_axi_gpio_1_0/mb_block_axi_gpio_1_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Mwehler2/385/ece385-lab6/lab6/lab6.gen/sources_1/bd/mb_block/ip/mb_block_axi_gpio_2_0/mb_block_axi_gpio_2_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Mwehler2/385/ece385-lab6/lab6/lab6.gen/sources_1/bd/mb_block/ip/mb_block_axi_gpio_2_0/mb_block_axi_gpio_2_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Mwehler2/385/ece385-lab6/lab6/lab6.gen/sources_1/bd/mb_block/ip/mb_block_axi_gpio_2_0/mb_block_axi_gpio_2_0.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Mwehler2/385/ece385-lab6/lab6/lab6.gen/sources_1/bd/mb_block/mb_block_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Mwehler2/385/ece385-lab6/lab6/lab6.gen/sources_1/bd/mb_block/ip/mb_block_microblaze_0_0/data/mb_bootloop_le.elf]
 

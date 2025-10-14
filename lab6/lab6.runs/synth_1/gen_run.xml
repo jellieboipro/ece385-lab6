@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7s50csga324-1" LaunchTime="1760459467" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/mb_intro_top.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7s50csga324-1" LaunchTime="1760467780" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/mb_intro_top.dcp">
   <File Type="PA-TCL" Name="mb_intro_top.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="mb_intro_top_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="mb_intro_top_reports.tcl"/>
@@ -65,9 +65,11 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
     <Step Id="synth_design"/>
   </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="mb_block_axi_gpio_2_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb_block_microblaze_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb_block_xbar_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb_block_dlmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mb_block_axi_gpio_1_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb_block_dlmb_bram_if_cntlr_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb_block_ilmb_v10_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb_block_microblaze_0_axi_intc_0"/>

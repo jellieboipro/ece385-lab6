@@ -19,15 +19,25 @@ volatile uint32_t* led_gpio_data = (uint32_t*)0x40000000;  //Hint: either find t
 															 //replace with the proper define in xparameters (part of the BSP). Either way
 															 //this is the base address of the GPIO corresponding to your LEDs
 															 //(similar to 0xFFFF from MEM2IO from previous labs).
-
+volatile uint32_t* button_data = (uint32_t*)0x40010000;
+volatile uint32_t* switch_data = (uint32_t*)0x40020000;
 int main()
 {
     init_platform();
+	int accumulator = 0;
+	*led_gpio_data = accumulator;
 
 	while (1)
 	{
-		int accumulator = 0;
-		accumulator += *
+		if(*button_data ==  0x00000001){
+		accumulator += *switch_data;
+			if(accumulator > 65535){
+				printf("Overflow!\r\n");
+				accumulator = 0;
+			}
+		*led_gpio_data = accumulator;
+		while(*button_data == 0x00000001){}
+		}
 	}
 
     cleanup_platform();

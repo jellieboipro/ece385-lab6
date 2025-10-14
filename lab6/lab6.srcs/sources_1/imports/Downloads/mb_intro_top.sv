@@ -19,9 +19,9 @@ module mb_intro_top
 
   mb_block mb_block_i
        (.clk_100MHz(clk),
-        .gpio_rtl_0_tri_o(led[0]),
-        .gpio_rtl_1_tri_o(btn[1]),
-
+        .gpio_rtl_0_tri_o(led),
+        .gpio_rtl_1_tri_i(btn[1]),
+        .gpio_rtl_2_tri_i(sw),
         .reset_rtl_0(~btn[0]),      //Note the inversion of the reset button. Buttons are active low, but the MicroBlaze reset is active high
         .uart_rtl_0_rxd(uart_txd),  //Note the switcheroo between RTX and TXD. This is a common source of confusion in embedded development
         .uart_rtl_0_txd(uart_rxd)); //RXD = Received Data, and TXD = Transmitted Data, but whether data is transmitted or received depeneds on the

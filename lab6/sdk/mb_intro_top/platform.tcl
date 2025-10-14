@@ -25,3 +25,9 @@ platform clean
 platform generate
 platform clean
 platform generate
+platform clean
+platform generate
+platform active {mb_intro_top}
+platform config -updatehw {C:/Users/Mwehler2/385/ece385-lab6/lab6/mb_intro_top.xsa}
+platform clean
+platform generate
