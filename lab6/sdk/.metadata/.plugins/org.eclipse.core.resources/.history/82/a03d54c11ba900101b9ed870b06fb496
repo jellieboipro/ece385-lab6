@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="blinker" location="C:/Users/Mwehler2/385/ece385-lab6/lab6/sdk/blinker" platform="C:/Users/Mwehler2/385/ece385-lab6/lab6/sdk/mb_intro_top/export/mb_intro_top/mb_intro_top.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="blinker_system" sysConfig="mb_intro_top" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="639e5114ca5d023816e683110db006ed">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.1509990624">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.867315101" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

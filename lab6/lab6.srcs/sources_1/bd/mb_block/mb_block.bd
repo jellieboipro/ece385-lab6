@@ -98,8 +98,7 @@
             "value_src": "default"
           },
           "POLARITY": {
-            "value": "ACTIVE_LOW",
-            "value_src": "default"
+            "value": "ACTIVE_LOW"
           }
         }
       }
@@ -840,7 +839,12 @@
         "vlnv": "xilinx.com:ip:axi_uartlite:2.0",
         "xci_name": "mb_block_axi_uartlite_0_0",
         "xci_path": "ip\\mb_block_axi_uartlite_0_0\\mb_block_axi_uartlite_0_0.xci",
-        "inst_hier_path": "axi_uartlite_0"
+        "inst_hier_path": "axi_uartlite_0",
+        "parameters": {
+          "C_BAUDRATE": {
+            "value": "115200"
+          }
+        }
       }
     },
     "interface_nets": {
@@ -906,12 +910,6 @@
       }
     },
     "nets": {
-      "aux_reset_in_0_1": {
-        "ports": [
-          "reset_rtl_0",
-          "rst_clk_wiz_1_100M/aux_reset_in"
-        ]
-      },
       "axi_uartlite_0_interrupt": {
         "ports": [
           "axi_uartlite_0/interrupt",
@@ -954,6 +952,12 @@
           "microblaze_0_axi_periph/M02_ACLK"
         ]
       },
+      "reset_rtl_0_1": {
+        "ports": [
+          "reset_rtl_0",
+          "rst_clk_wiz_1_100M/ext_reset_in"
+        ]
+      },
       "rst_clk_wiz_1_100M_bus_struct_reset": {
         "ports": [
           "rst_clk_wiz_1_100M/bus_struct_reset",
@@ -970,15 +974,14 @@
       "rst_clk_wiz_1_100M_peripheral_aresetn": {
         "ports": [
           "rst_clk_wiz_1_100M/peripheral_aresetn",
+          "axi_gpio_0/s_axi_aresetn",
+          "microblaze_0_axi_intc/s_axi_aresetn",
           "microblaze_0_axi_periph/ARESETN",
           "microblaze_0_axi_periph/S00_ARESETN",
           "microblaze_0_axi_periph/M00_ARESETN",
-          "microblaze_0_axi_intc/s_axi_aresetn",
-          "axi_uartlite_0/s_axi_aresetn",
           "microblaze_0_axi_periph/M01_ARESETN",
-          "axi_gpio_0/s_axi_aresetn",
-          "rst_clk_wiz_1_100M/ext_reset_in",
-          "microblaze_0_axi_periph/M02_ARESETN"
+          "microblaze_0_axi_periph/M02_ARESETN",
+          "axi_uartlite_0/s_axi_aresetn"
         ]
       }
     },
