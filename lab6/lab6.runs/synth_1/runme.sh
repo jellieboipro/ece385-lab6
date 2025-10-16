@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/Mwehler2/385/ece385-lab6/lab6/lab6.runs/synth_1'
+HD_PWD='C:/Users/mwehler2/385/ece385-lab6/lab6/lab6.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log mb_intro_top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source mb_intro_top.tcl
+EAStep vivado -log mb_usb_hdmi_top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source mb_usb_hdmi_top.tcl
