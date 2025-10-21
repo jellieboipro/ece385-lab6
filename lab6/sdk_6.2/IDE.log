@@ -12,3 +12,202 @@
 12:19:02 WARN  : An unexpected exception occurred in the module 'platform project logging'
 12:19:02 INFO  : Platform 'mb_usb_hdmi_top' is added to custom repositories.
 12:19:06 INFO  : Platform 'mb_usb_hdmi_top' is added to custom repositories.
+12:01:05 DEBUG : Logs will be stored at 'C:/Users/mwehler2/385/ece385-lab6/lab6/sdk_6.2/IDE.log'.
+12:01:06 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\mwehler2\385\ece385-lab6\lab6\sdk_6.2\temp_xsdb_launch_script.tcl
+12:01:09 INFO  : Platform repository initialization has completed.
+12:01:11 INFO  : Registering command handlers for Vitis TCF services
+12:01:11 INFO  : XSCT server has started successfully.
+12:01:11 INFO  : Successfully done setting XSCT server connection channel  
+12:01:16 INFO  : plnx-install-location is set to ''
+12:01:16 INFO  : Successfully done setting workspace for the tool. 
+12:01:16 INFO  : Successfully done query RDI_DATADIR 
+13:05:15 INFO  : Hardware specification for platform project 'mb_usb_hdmi_top' is updated.
+13:05:35 INFO  : Hardware specification for platform project 'mb_usb_hdmi_top' is updated.
+13:06:37 INFO  : Hardware specification for platform project 'mb_usb_hdmi_top' is updated.
+13:06:46 INFO  : Hardware specification for platform project 'mb_usb_hdmi_top' is updated.
+13:07:12 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+13:07:12 INFO  : Result from executing command 'getPlatforms': mb_usb_hdmi_top|C:/Users/mwehler2/385/ece385-lab6/lab6/sdk_6.2/mb_usb_hdmi_top/export/mb_usb_hdmi_top/mb_usb_hdmi_top.xpfm;xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+13:07:16 INFO  : Result from executing command 'removePlatformRepo': 
+13:07:27 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+13:07:27 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+13:07:28 INFO  : Checking for BSP changes to sync application flags for project 'lab6_2'...
+13:08:04 INFO  : Checking for BSP changes to sync application flags for project 'lab6_2'...
+13:10:05 INFO  : Result from executing command 'removePlatformRepo': 
+13:10:16 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+13:10:16 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+13:10:17 INFO  : Checking for BSP changes to sync application flags for project 'lab6_2'...
+13:11:10 INFO  : Result from executing command 'removePlatformRepo': 
+13:11:23 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+13:11:23 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+13:11:24 INFO  : Checking for BSP changes to sync application flags for project 'lab6_2'...
+13:12:02 INFO  : Result from executing command 'removePlatformRepo': 
+13:12:13 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+13:12:13 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+13:12:14 INFO  : Checking for BSP changes to sync application flags for project 'lab6_2'...
+13:12:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:12:54 INFO  : Jtag cable 'RealDigital Boo 887100000001A' is selected.
+13:12:54 INFO  : 'jtag frequency' command is executed.
+13:12:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000001A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+13:12:56 INFO  : Device configured successfully with "C:/Users/mwehler2/385/ece385-lab6/lab6/sdk_6.2/lab6_2/_ide/bitstream/mb_usb_hdmi_top.bit"
+13:12:56 INFO  : Context for processor 'microblaze_0' is selected.
+13:12:56 INFO  : Hardware design and registers information is loaded from 'C:/Users/mwehler2/385/ece385-lab6/lab6/sdk_6.2/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+13:12:56 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:12:56 INFO  : Context for processor 'microblaze_0' is selected.
+13:12:56 INFO  : System reset is completed.
+13:12:59 INFO  : 'after 3000' command is executed.
+13:12:59 INFO  : Context for processor 'microblaze_0' is selected.
+13:12:59 INFO  : The application 'C:/Users/mwehler2/385/ece385-lab6/lab6/sdk_6.2/lab6_2/Debug/lab6_2.elf' is downloaded to processor 'microblaze_0'.
+13:12:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000001A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/mwehler2/385/ece385-lab6/lab6/sdk_6.2/lab6_2/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/mwehler2/385/ece385-lab6/lab6/sdk_6.2/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/mwehler2/385/ece385-lab6/lab6/sdk_6.2/lab6_2/Debug/lab6_2.elf
+----------------End of Script----------------
+
+13:12:59 INFO  : Context for processor 'microblaze_0' is selected.
+13:12:59 INFO  : 'con' command is executed.
+13:12:59 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:12:59 INFO  : Disconnected from the channel tcfchan#10.
+13:27:56 INFO  : Result from executing command 'removePlatformRepo': 
+13:28:06 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+13:28:06 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+13:28:07 INFO  : Checking for BSP changes to sync application flags for project 'lab6_2'...
+13:29:52 INFO  : Checking for BSP changes to sync application flags for project 'lab6_2'...
+13:30:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:30:06 INFO  : Jtag cable 'RealDigital Boo 887100000001A' is selected.
+13:30:06 INFO  : 'jtag frequency' command is executed.
+13:30:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000001A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+13:30:08 INFO  : Device configured successfully with "C:/Users/mwehler2/385/ece385-lab6/lab6/sdk_6.2/lab6_2/_ide/bitstream/mb_usb_hdmi_top.bit"
+13:30:08 INFO  : Context for processor 'microblaze_0' is selected.
+13:30:08 INFO  : Hardware design and registers information is loaded from 'C:/Users/mwehler2/385/ece385-lab6/lab6/sdk_6.2/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+13:30:08 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:30:08 INFO  : Context for processor 'microblaze_0' is selected.
+13:30:08 INFO  : System reset is completed.
+13:30:11 INFO  : 'after 3000' command is executed.
+13:30:11 INFO  : Context for processor 'microblaze_0' is selected.
+13:30:11 INFO  : The application 'C:/Users/mwehler2/385/ece385-lab6/lab6/sdk_6.2/lab6_2/Debug/lab6_2.elf' is downloaded to processor 'microblaze_0'.
+13:30:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000001A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/mwehler2/385/ece385-lab6/lab6/sdk_6.2/lab6_2/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/mwehler2/385/ece385-lab6/lab6/sdk_6.2/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/mwehler2/385/ece385-lab6/lab6/sdk_6.2/lab6_2/Debug/lab6_2.elf
+----------------End of Script----------------
+
+13:30:11 INFO  : Context for processor 'microblaze_0' is selected.
+13:30:11 INFO  : 'con' command is executed.
+13:30:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:30:11 INFO  : Disconnected from the channel tcfchan#13.
+13:30:21 INFO  : Result from executing command 'removePlatformRepo': 
+13:30:32 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+13:30:32 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+13:30:33 INFO  : Checking for BSP changes to sync application flags for project 'lab6_2'...
+13:30:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:30:43 INFO  : Jtag cable 'RealDigital Boo 887100000001A' is selected.
+13:30:43 INFO  : 'jtag frequency' command is executed.
+13:30:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000001A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+13:30:44 INFO  : Device configured successfully with "C:/Users/mwehler2/385/ece385-lab6/lab6/sdk_6.2/lab6_2/_ide/bitstream/mb_usb_hdmi_top.bit"
+13:30:45 INFO  : Context for processor 'microblaze_0' is selected.
+13:30:45 INFO  : Hardware design and registers information is loaded from 'C:/Users/mwehler2/385/ece385-lab6/lab6/sdk_6.2/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+13:30:45 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:30:45 INFO  : Context for processor 'microblaze_0' is selected.
+13:30:45 INFO  : System reset is completed.
+13:30:48 INFO  : 'after 3000' command is executed.
+13:30:48 INFO  : Context for processor 'microblaze_0' is selected.
+13:30:48 INFO  : The application 'C:/Users/mwehler2/385/ece385-lab6/lab6/sdk_6.2/lab6_2/Debug/lab6_2.elf' is downloaded to processor 'microblaze_0'.
+13:30:48 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000001A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/mwehler2/385/ece385-lab6/lab6/sdk_6.2/lab6_2/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/mwehler2/385/ece385-lab6/lab6/sdk_6.2/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/mwehler2/385/ece385-lab6/lab6/sdk_6.2/lab6_2/Debug/lab6_2.elf
+----------------End of Script----------------
+
+13:30:48 INFO  : Context for processor 'microblaze_0' is selected.
+13:30:48 INFO  : 'con' command is executed.
+13:30:48 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:30:48 INFO  : Disconnected from the channel tcfchan#16.
+13:41:38 INFO  : Hardware specification for platform project 'mb_usb_hdmi_top' is updated.
+13:41:48 INFO  : Result from executing command 'removePlatformRepo': 
+13:42:02 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+13:42:02 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+13:42:03 INFO  : Checking for BSP changes to sync application flags for project 'lab6_2'...
+13:42:06 INFO  : The hardware specification used by project 'lab6_2' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+13:42:06 INFO  : The file 'C:\Users\mwehler2\385\ece385-lab6\lab6\sdk_6.2\lab6_2\_ide\bitstream\mb_usb_hdmi_top.bit' stored in project is removed.
+13:42:06 INFO  : The file 'C:\Users\mwehler2\385\ece385-lab6\lab6\sdk_6.2\lab6_2\_ide\bitstream\mb_usb_hdmi_top.mmi' stored in project is removed.
+13:42:06 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\mwehler2\385\ece385-lab6\lab6\sdk_6.2\lab6_2\_ide\bitstream' in project 'lab6_2'.
+13:42:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:42:12 INFO  : Jtag cable 'RealDigital Boo 887100000001A' is selected.
+13:42:12 INFO  : 'jtag frequency' command is executed.
+13:42:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000001A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+13:42:13 INFO  : Device configured successfully with "C:/Users/mwehler2/385/ece385-lab6/lab6/sdk_6.2/lab6_2/_ide/bitstream/mb_usb_hdmi_top.bit"
+13:42:13 INFO  : Context for processor 'microblaze_0' is selected.
+13:42:13 INFO  : Hardware design and registers information is loaded from 'C:/Users/mwehler2/385/ece385-lab6/lab6/sdk_6.2/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+13:42:13 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:42:13 INFO  : Context for processor 'microblaze_0' is selected.
+13:42:13 INFO  : System reset is completed.
+13:42:16 INFO  : 'after 3000' command is executed.
+13:42:16 INFO  : Context for processor 'microblaze_0' is selected.
+13:42:17 INFO  : The application 'C:/Users/mwehler2/385/ece385-lab6/lab6/sdk_6.2/lab6_2/Debug/lab6_2.elf' is downloaded to processor 'microblaze_0'.
+13:42:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000001A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/mwehler2/385/ece385-lab6/lab6/sdk_6.2/lab6_2/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/mwehler2/385/ece385-lab6/lab6/sdk_6.2/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/mwehler2/385/ece385-lab6/lab6/sdk_6.2/lab6_2/Debug/lab6_2.elf
+----------------End of Script----------------
+
+13:42:17 INFO  : Context for processor 'microblaze_0' is selected.
+13:42:17 INFO  : 'con' command is executed.
+13:42:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:42:17 INFO  : Disconnected from the channel tcfchan#19.
+13:47:49 INFO  : Hardware specification for platform project 'mb_usb_hdmi_top' is updated.
+13:48:04 INFO  : Result from executing command 'removePlatformRepo': 
+13:48:23 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+13:48:23 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+13:48:24 INFO  : Checking for BSP changes to sync application flags for project 'lab6_2'...
+13:48:28 INFO  : The hardware specification used by project 'lab6_2' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+13:48:28 INFO  : The file 'C:\Users\mwehler2\385\ece385-lab6\lab6\sdk_6.2\lab6_2\_ide\bitstream\mb_usb_hdmi_top.bit' stored in project is removed.
+13:48:28 INFO  : The file 'C:\Users\mwehler2\385\ece385-lab6\lab6\sdk_6.2\lab6_2\_ide\bitstream\mb_usb_hdmi_top.mmi' stored in project is removed.
+13:48:28 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\mwehler2\385\ece385-lab6\lab6\sdk_6.2\lab6_2\_ide\bitstream' in project 'lab6_2'.

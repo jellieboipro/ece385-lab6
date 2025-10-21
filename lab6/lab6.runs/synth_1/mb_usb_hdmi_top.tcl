@@ -70,6 +70,7 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
+set_param chipscope.maxJobs 3
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7s50csga324-1
 
@@ -137,9 +138,9 @@ set_property used_in_implementation false [get_files -all c:/Users/mwehler2/385/
 set_property used_in_implementation false [get_files -all c:/Users/mwehler2/385/ece385-lab6/lab6/lab6.gen/sources_1/bd/mb_block/mb_block_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/mwehler2/385/ece385-lab6/lab6/lab6.gen/sources_1/bd/mb_block/ip/mb_block_microblaze_0_0/data/mb_bootloop_le.elf]
 
-read_ip -quiet c:/Users/mwehler2/385/ece385-lab6/lab6/lab6.srcs/sources_1/ip/hdmi_tx_0/hdmi_tx_0.xci
+read_ip -quiet C:/Users/mwehler2/385/ece385-lab6/lab6/lab6.srcs/sources_1/ip/hdmi_tx_0/hdmi_tx_0.xci
 
-read_ip -quiet c:/Users/mwehler2/385/ece385-lab6/lab6/lab6.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
+read_ip -quiet C:/Users/mwehler2/385/ece385-lab6/lab6/lab6.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
 set_property used_in_implementation false [get_files -all c:/Users/mwehler2/385/ece385-lab6/lab6/lab6.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/mwehler2/385/ece385-lab6/lab6/lab6.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/mwehler2/385/ece385-lab6/lab6/lab6.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_ooc.xdc]

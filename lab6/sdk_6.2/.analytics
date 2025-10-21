@@ -2,3 +2,52 @@ timestamp=[2025-10-16 12:11:54], mode=WORKBENCH_START, duration=0:00:07.233, dur
 timestamp=[2025-10-16 12:11:55], mode=WORKBENCH_UI_INIT, duration=0:00:00.579, duration_ms=579, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
 timestamp=[2025-10-16 12:11:57], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.178, duration_ms=1178, data={}
 timestamp=[2025-10-16 12:19:06], mode=APP_CREATION, duration=0:00:08.487, duration_ms=8487, data={name=lab6_2, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=mb_usb_hdmi_top, application_type=application}
+timestamp=[2025-10-21 12:01:09], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.131, duration_ms=1131, data={}
+timestamp=[2025-10-21 12:01:10], mode=WORKBENCH_START, duration=0:00:09.153, duration_ms=9153, data={}
+timestamp=[2025-10-21 12:01:11], mode=WORKBENCH_UI_INIT, duration=0:00:00.587, duration_ms=587, data={editors_count=2, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,lab6_2,lab6_2_system,mb_usb_hdmi_top}
+timestamp=[2025-10-21 13:07:13], mode=PLATFORM_GENERATION, duration=0:00:13.165, duration_ms=13165, data={name=mb_usb_hdmi_top}
+timestamp=[2025-10-21 13:07:18], mode=PLATFORM_GENERATION, duration=0:00:04.593, duration_ms=4593, data={name=mb_usb_hdmi_top}
+timestamp=[2025-10-21 13:07:28], mode=PLATFORM_GENERATION, duration=0:00:07.885, duration_ms=7885, data={name=mb_usb_hdmi_top}
+timestamp=[2025-10-21 13:07:29], mode=BUILD, duration=0:00:00.997, duration_ms=997, data={name=lab6_2, configuration=Debug, clean_build=false}
+timestamp=[2025-10-21 13:08:04], mode=BUILD, duration=0:00:00.420, duration_ms=420, data={name=lab6_2, configuration=Debug, clean_build=false}
+timestamp=[2025-10-21 13:10:02], mode=BUILD, duration=0:00:00.273, duration_ms=273, data={name=lab6_2, configuration=Debug, clean_build=true}
+timestamp=[2025-10-21 13:10:02], mode=BUILD, duration=0:00:00.292, duration_ms=292, data={name=lab6_2_system, configuration=Debug, clean_build=true}
+timestamp=[2025-10-21 13:10:07], mode=PLATFORM_GENERATION, duration=0:00:04.346, duration_ms=4346, data={name=mb_usb_hdmi_top}
+timestamp=[2025-10-21 13:10:17], mode=PLATFORM_GENERATION, duration=0:00:07.931, duration_ms=7931, data={name=mb_usb_hdmi_top}
+timestamp=[2025-10-21 13:10:18], mode=BUILD, duration=0:00:00.970, duration_ms=970, data={name=lab6_2, configuration=Debug, clean_build=false}
+timestamp=[2025-10-21 13:11:07], mode=BUILD, duration=0:00:00.286, duration_ms=286, data={name=lab6_2, configuration=Debug, clean_build=true}
+timestamp=[2025-10-21 13:11:08], mode=BUILD, duration=0:00:00.284, duration_ms=284, data={name=lab6_2_system, configuration=Debug, clean_build=true}
+timestamp=[2025-10-21 13:11:12], mode=PLATFORM_GENERATION, duration=0:00:04.325, duration_ms=4325, data={name=mb_usb_hdmi_top}
+timestamp=[2025-10-21 13:11:24], mode=PLATFORM_GENERATION, duration=0:00:08.052, duration_ms=8052, data={name=mb_usb_hdmi_top}
+timestamp=[2025-10-21 13:11:25], mode=BUILD, duration=0:00:00.846, duration_ms=846, data={name=lab6_2, configuration=Debug, clean_build=false}
+timestamp=[2025-10-21 13:11:59], mode=BUILD, duration=0:00:00.293, duration_ms=293, data={name=lab6_2, configuration=Debug, clean_build=true}
+timestamp=[2025-10-21 13:12:00], mode=BUILD, duration=0:00:00.285, duration_ms=285, data={name=lab6_2_system, configuration=Debug, clean_build=true}
+timestamp=[2025-10-21 13:12:04], mode=PLATFORM_GENERATION, duration=0:00:04.321, duration_ms=4321, data={name=mb_usb_hdmi_top}
+timestamp=[2025-10-21 13:12:14], mode=PLATFORM_GENERATION, duration=0:00:07.924, duration_ms=7924, data={name=mb_usb_hdmi_top}
+timestamp=[2025-10-21 13:12:17], mode=BUILD, duration=0:00:03.440, duration_ms=3440, data={name=lab6_2, configuration=Debug, clean_build=false}
+timestamp=[2025-10-21 13:12:18], mode=BUILD, duration=0:00:00.223, duration_ms=223, data={name=lab6_2_system, configuration=Debug, clean_build=false}
+timestamp=[2025-10-21 13:27:53], mode=BUILD, duration=0:00:00.270, duration_ms=270, data={name=lab6_2, configuration=Debug, clean_build=true}
+timestamp=[2025-10-21 13:27:54], mode=BUILD, duration=0:00:00.223, duration_ms=223, data={name=lab6_2_system, configuration=Debug, clean_build=true}
+timestamp=[2025-10-21 13:27:58], mode=PLATFORM_GENERATION, duration=0:00:04.265, duration_ms=4265, data={name=mb_usb_hdmi_top}
+timestamp=[2025-10-21 13:28:07], mode=PLATFORM_GENERATION, duration=0:00:07.915, duration_ms=7915, data={name=mb_usb_hdmi_top}
+timestamp=[2025-10-21 13:28:08], mode=BUILD, duration=0:00:00.840, duration_ms=840, data={name=lab6_2, configuration=Debug, clean_build=false}
+timestamp=[2025-10-21 13:29:54], mode=BUILD, duration=0:00:02.179, duration_ms=2179, data={name=lab6_2, configuration=Debug, clean_build=false}
+timestamp=[2025-10-21 13:29:54], mode=BUILD, duration=0:00:00.203, duration_ms=203, data={name=lab6_2_system, configuration=Debug, clean_build=false}
+timestamp=[2025-10-21 13:30:18], mode=BUILD, duration=0:00:00.275, duration_ms=275, data={name=lab6_2, configuration=Debug, clean_build=true}
+timestamp=[2025-10-21 13:30:18], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=lab6_2_system, configuration=Debug, clean_build=true}
+timestamp=[2025-10-21 13:30:22], mode=PLATFORM_GENERATION, duration=0:00:04.245, duration_ms=4245, data={name=mb_usb_hdmi_top}
+timestamp=[2025-10-21 13:30:33], mode=PLATFORM_GENERATION, duration=0:00:08.117, duration_ms=8117, data={name=mb_usb_hdmi_top}
+timestamp=[2025-10-21 13:30:35], mode=BUILD, duration=0:00:02.619, duration_ms=2619, data={name=lab6_2, configuration=Debug, clean_build=false}
+timestamp=[2025-10-21 13:30:36], mode=BUILD, duration=0:00:00.226, duration_ms=226, data={name=lab6_2_system, configuration=Debug, clean_build=false}
+timestamp=[2025-10-21 13:41:45], mode=BUILD, duration=0:00:00.289, duration_ms=289, data={name=lab6_2, configuration=Debug, clean_build=true}
+timestamp=[2025-10-21 13:41:45], mode=BUILD, duration=0:00:00.214, duration_ms=214, data={name=lab6_2_system, configuration=Debug, clean_build=true}
+timestamp=[2025-10-21 13:41:50], mode=PLATFORM_GENERATION, duration=0:00:04.328, duration_ms=4328, data={name=mb_usb_hdmi_top}
+timestamp=[2025-10-21 13:42:03], mode=PLATFORM_GENERATION, duration=0:00:10.036, duration_ms=10036, data={name=mb_usb_hdmi_top}
+timestamp=[2025-10-21 13:42:06], mode=BUILD, duration=0:00:02.619, duration_ms=2619, data={name=lab6_2, configuration=Debug, clean_build=false}
+timestamp=[2025-10-21 13:42:06], mode=BUILD, duration=0:00:00.206, duration_ms=206, data={name=lab6_2_system, configuration=Debug, clean_build=false}
+timestamp=[2025-10-21 13:48:01], mode=BUILD, duration=0:00:00.285, duration_ms=285, data={name=lab6_2, configuration=Debug, clean_build=true}
+timestamp=[2025-10-21 13:48:02], mode=BUILD, duration=0:00:00.222, duration_ms=222, data={name=lab6_2_system, configuration=Debug, clean_build=true}
+timestamp=[2025-10-21 13:48:06], mode=PLATFORM_GENERATION, duration=0:00:04.333, duration_ms=4333, data={name=mb_usb_hdmi_top}
+timestamp=[2025-10-21 13:48:24], mode=PLATFORM_GENERATION, duration=0:00:10.040, duration_ms=10040, data={name=mb_usb_hdmi_top}
+timestamp=[2025-10-21 13:48:27], mode=BUILD, duration=0:00:02.630, duration_ms=2630, data={name=lab6_2, configuration=Debug, clean_build=false}
+timestamp=[2025-10-21 13:48:28], mode=BUILD, duration=0:00:00.224, duration_ms=224, data={name=lab6_2_system, configuration=Debug, clean_build=false}
